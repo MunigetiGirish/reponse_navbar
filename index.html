@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive navbar</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>My Porfolio</h1>
+        </div>
+    
 
+
+        <ul id="menuList" >
+            <li ><a  class='nav_link' href="home.html"><button  class="mybutton">HOME</button></a></li>
+            <li ><a  class='nav_link' href="about.html"><button  class="mybutton">ABOUT</button></a></li>
+            <li ><a  class='nav_link' href="services.html"><button  class="mybutton">SERVICES</button></a></li>
+            <li ><a  class='nav_link' href="contact.html"><button  class="mybutton">CONTACT</button></a></li>
+            <li ><a  class='nav_link' href="sign.html"><button  class="mybutton">LOGIN</button></a></li>
+            <li ><a  class='nav_link' href="register.html"><button  class="mybutton">REGISTER</button></a></li>
+        
+        </ul>
+    
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+       
+    </nav>
+    <div id="content">
+        <!-- Loaded content will be injected here -->
+    </div>
+
+
+    <script src="script.js">
+       
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+</body>
+</html>
